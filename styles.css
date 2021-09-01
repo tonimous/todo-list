@@ -1,0 +1,29 @@
+body {
+    background-color: #1f1f1f;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 1.2;
+    line-height: 1.5;
+}
+.container {
+    max-width: 30%;
+}
+input[type=text], 
+input[type=text]:focus {
+    color: #f0f0f0;
+    border: none;
+    background: #4b4b4b22;
+    /* max-width: 75%; */
+}
+.todos li {
+    background: #858585;
+}
+.delete {
+    cursor: pointer;
+}
+.todos {
+    list-style-type: none;
+    font-family: inherit;
+}
+.filtered {
+    display: none !important;
+}
